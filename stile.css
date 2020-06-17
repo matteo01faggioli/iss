@@ -1,0 +1,64 @@
+html{height: 100%;}
+body{background-image: url('spazio.jpg'); height: 100%; background-size: cover;}
+
+#mapid{
+    opacity: 0.9;
+    width: 1650px; 
+    height: 845px; 
+    margin: 0 auto;
+}
+
+#titolo{
+    color: white;
+    font-size: 70px;
+}
+
+#sottotitolo{
+    color: white;
+    font-size: 65px;
+
+
+}
+
+#data {
+    color: white;
+}
+
+#link {
+    color: ivory;
+    font-size: 35px;
+}
+
+.bunner {opacity: 0.85; background: #fff; height: 50%; margin-top: 30px;}
+.bunner__image1 {width: 30%; float: left; height: 100%; background-image: url("iss.jpg");background-size: cover;-o-background-size: cover;-moz-background-size: cover; background-position: center center;}
+.bunner__image2 {width: 30%; float: left; height: 100%; background-image: url("interno.jpg");background-size: cover;-o-background-size: cover;-moz-background-size: cover; background-position: center center;}
+.bunner__image3 {width: 30%; float: left; height: 100%; background-image: url("astro.jpg");background-size: cover;-o-background-size: cover;-moz-background-size: cover; background-position: center center;}
+.bunner__copy {width: 70%; float: left; height: 100%; display: table;}
+.bunner__copy__text {display: table-cell; vertical-align: middle; padding: 30px; margin-bottom: 0; font-size: 25px;}
+
+
+#astronauti1{ vertical-align: middle;  padding: 30px; margin-bottom: 0; font-size: 25px;}
+#astronauti2{vertical-align: middle;  padding: 30px; margin-bottom: 0; font-size: 25px;}
+
+
+
+/* TABLET */
+@media (max-width: 998px) {
+
+    /* Bunner */
+    .bunner__image1 {width: 50%; height: 50%; }
+    .bunner__image2 {width: 50%; height: 50%; }
+    .bunner__copy {width: 50%; height: 50%;}
+   
+  
+}
+
+/* SMARTPHONE */
+@media (max-width: 767px) {
+
+    /* BUNNER */
+    .bunner {height: 100%;}
+    .bunner__image1 {width: 100%; height: 50%; }
+    .bunner__image2 {width: 100%; height: 50%; }
+    .bunner__copy {width: 100%; height: 50%;}
+ }
